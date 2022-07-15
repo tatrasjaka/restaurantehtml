@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'popons', sans-serif;
+  overflow-x: hidden;
+}
+/* CSS Vídeo de fondo */
+.cabeceraindex{
+  height: 70vh;
+  position: relative;
+  margin-top: 6%;
+}
+.contenedorcabecera{
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  color: white;
+}
+.video1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#video1{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  background-color: black;
+}
+.cajacabecera{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.cabeceraprimaria{
+  font-size: 4.5rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+#restaurante{
+  color: #da6b1d;
+  font-weight: 800;
+  font-size: 8rem;
+}
+/* Empiezo el cuerpo del index html */
+.izquierda{
+  margin-top: 2%;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.izquierda img{
+  margin-left: 15%;
+  width: 85%;
+  height: 400px;
+}
+.derecha{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+.h1 span{
+  color: #da6b1d;
+}
+.minombre{
+  margin-top: 5%;
+  text-align: center;
+  color: #da6b1d;
+  text-transform: uppercase;
+}
+.derecha p{
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: black
+}
+.imagenes{
+  width: 100%;
+  float: left;
+  margin-bottom: 3%;
+}
+.imagenes h1{
+  text-align: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  color: #da6b1d;
+}
+.imagenes .restaurante{
+  margin-left: 5%;
+}
+.imagenes .restaurante0{
+  margin-left: 5%;
+}
+.imagenes .restaurante1{
+  margin-left: 5%;
+  /* CSS de reseñas */
+}
+.opiniones{
+  float: left;
+  width: 60%;
+  margin-left: 20%;
+  display: block;
+  margin-bottom: 2%;
+}
+.opiniones h1{
+  text-align: center;
+  color: #da6b1d;
+  margin-bottom: 4%;
+}
+.opiniones p{
+  text-align: center;
+}
+.opiniones .lucia{
+  text-align: center;
+  font-family: "Herr Von Muellerhoff", "Lucida Handwriting", "Brush Script MT", "Comic Sans", "Comic Sans MS", Chalkboard, cursive;
+  font-size: 25px;
+  margin-top: 1.2%;
+  margin-bottom: 1%;
+}
+.opiniones .opinion{
+  text-align: center;
+  font-family: italic;
+  font-size: 19px;
+}
+.opiniones .fecha{
+  font-family: cursive;
+  margin-top: 1.5%;
+  color: #da6b1d;
+}
+.opiniones0{
+  float: left;
+  width: 60%;
+  margin-left: 20%;
+  display: block;
+  margin-bottom: 2.5%;
+}
+.opiniones0 p{
+  text-align: center;
+}
+.opiniones0 .lucia{
+  text-align: center;
+  font-family: "Herr Von Muellerhoff", "Lucida Handwriting", "Brush Script MT", "Comic Sans", "Comic Sans MS", Chalkboard, cursive;
+  font-size: 25px;
+  margin-top: 1.2%;
+  margin-bottom: 1%;
+}
+.opiniones0 .opinion{
+  text-align: center;
+  font-family: italic;
+  font-size: 19px;
+}
+.opiniones0 .fecha{
+  font-family: cursive;
+  margin-top: 1.5%;
+  color: #da6b1d;
+}

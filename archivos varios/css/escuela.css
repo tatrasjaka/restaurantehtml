@@ -1,0 +1,401 @@
+body{
+    background-image: url(../../fondos/mantelfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enlaces a{
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
+.enlaces a:hover{
+  color: purple;
+}
+.video , .video0 , .video2{
+    margin-top: 6.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+.acentrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    margin-top: 1%;
+}
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.h1{
+    position: absolute;
+    top: 24%;
+    left: 49.5%;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+/*Sirve para las pantallas entre 1000 y 1100px */
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    
+  }
+  /*Sirve para las pantallas entre 1100 y 1250px*/
+@media only screen and (min-width: 1100px)  and (max-width:1250px) {
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top: 3.5%;
+    }
+    .h1{
+        margin-top:4%;
+    }
+    
+  }
+  /*Sirve para las pantallas entre 1250 y 1600px*/
+@media only screen and (min-width:1250px) and (max-width: 1600px) {
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top:3%;
+    }
+    .h1{
+        margin-top:5%;
+    }
+    
+  }
+  /*Sirve para las pantallas superiores a 1600px*/
+@media only screen and (min-width:1600px) {
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top:2.5%;
+    }
+    .h1{
+        margin-top:6%;
+    }
+    
+  }
+  /*Sirve para las pantallas menores a 1000px*/
+@media only screen and (max-width: 1000px) {
+    .h1{
+        margin-top: -6%;
+        
+        
+    }
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+  }
+@media only screen and (max-width: 840px) and (min-width: 740px) {
+    .h1{
+        margin-top: -6%;        
+    }
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top:7%;
+    }
+  }
+@media only screen and (max-width: 740px) {
+    .h1{
+        margin-top: -6%;        
+    }
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top:14%;
+    }
+    strong{
+        width: 100%;;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+      .acentrar{
+          width:100%;
+      }
+    .h1{
+        margin-top: -6%;        
+    }
+    .acentrar{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        margin-top:14%;
+    }
+    strong{
+        width: 100%;;
+    }
+  }
+  /*Este es el CSS del Popup*/
+  .modal-contenido{
+      background-image: url(../../fondos/mantelfondo.png);
+      width:700px;
+      padding: 10px 20px;
+      margin: 20% auto;
+      position: relative;
+      bottom: 27%;
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #miModal:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  .textomodal{
+    text-align: center;
+}
+  /* Sigo con el CSS */
+  .titulo{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 40px;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: gray;
+    position: relative;
+}
+  /* CSS de la receta de la tortilla */
+  .izquierda{
+    width:35%;
+    margin-left: 10%;
+    float: left;
+}
+.izquierda img{
+    max-width: 100%;
+}
+  .derecha{
+    width:50%;
+    height: 80%;
+    float:right;
+  }
+  .derecha .tortilla{
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-color: gray;
+      font-size: 20px;
+  }
+  .derecha h3{
+      text-align: center;
+  }
+  .derecha ul{
+      text-align: center;
+      list-style-type: none;
+      display:inline;
+  }
+  .derecha ul li{
+      text-align: center;
+    margin-top: 2%;
+  }
+  .derecha .lista{
+      text-align: center;
+  }
+.contenedor2{
+    width: 100%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.lasañadiv{
+  margin-bottom: 5%;
+}
+.derecha .tortillatexto{
+  margin-top: 1%;
+}
+  /* CSS de la segunda receta */
+  .izquierda1{
+    width:50%;
+    margin-left: 10%;
+    float: left;
+    margin-bottom: 2%;
+}
+.izquierda1 img{
+    max-width: 100%;
+}
+  .derecha1{
+    width: 30%;
+    float:right;
+    margin-right: 10%;
+  }
+  .izquierda1 .tortilla1{
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-color: gray;
+      font-size: 20px;
+  }
+  .izquierda1 h3{
+      text-align: center;
+  }
+  .izquierda1 ul{
+      text-align: center;
+      list-style-type: none;
+      display:inline;
+  }
+  .izquierda1 ul li{
+      text-align: center;
+      margin-right: 0%;
+      margin-top: 2%;
+  }
+  .izquierda1 .lista1{
+      text-align: center;
+  }
+.contenedor3{
+    width: 100%;
+    display: inline-block;
+}
+.contenedor3 .textorecetahambur{
+  margin-right: 10%;
+}
+  /*Popup de la segunda receta*/
+  .modal-contenido1{
+    background-image: url(../../fondos/mantelfondo.png);
+    width:700px;
+    height: 500px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    bottom: 27%;
+}
+.modal1{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModal1:target{
+  opacity:1;
+  pointer-events:auto;
+}
+.textomodal1{
+  text-align: center;
+}
+/* CSS del contenedor de la lasaña */
+.contenedor2 .izquierda .lasaña{
+  margin-left: 5%;
+}
+/* Popup Lasaña */
+  /*Este es el CSS del Popup*/
+  .modal-contenido2{
+    background-image: url(../../fondos/mantelfondo.png);
+    width:700px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    bottom: 27%;
+}
+.modal2{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#miModal2:target{
+  opacity:1;
+  pointer-events:auto;
+}
+.textomodal2{
+  text-align: center;
+}
+/* CSS Vídeo */
+.cabeceraindex{
+  height: 70vh;
+  position: relative;
+  margin-top: 6%;
+}
+.contenedorcabecera{
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  color: white;
+}
+.video1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#video1{
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  background-color: black;
+}
+.cajacabecera{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.cabeceraprimaria{
+  font-size: 4.5rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: none;
+}

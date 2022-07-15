@@ -1,0 +1,124 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size:40px;
+    transform: translate(-50%, -50%);
+}
+.formulario{
+    margin-top:3%;
+}
+.left{
+    margin-left:10%;
+    width:35%;
+    float:left;
+    margin-bottom: 10%;
+}
+.right{
+    margin-right:10%;
+    width:35%;
+    float:right;
+}
+h1{
+    text-transform: uppercase;
+    color:#da6b1d;
+}
+h3{
+    
+color:#da6b1d;
+
+}
+p{
+    font-size: 16px;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+
+.input{
+    margin-top:1%;
+    width:100%;
+    height: 30px;
+    margin-bottom: 3%;
+    border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.button:hover{
+    background-color: #da6b1d;
+}
+.formulario .left table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 15%;
+  }
+  
+  .formulario .left td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  /* CSS Vídeo */
+.video1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  #video1{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    background-color: black;
+  }
+  .cajacabecera{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+  }
+  .cabeceraprimaria{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+  }
+  .cabeceraindex{
+    height: 60vh;
+    position: relative;
+    margin-top: 10%;
+  }
+  .contenedorcabecera{
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    color: white;
+  }

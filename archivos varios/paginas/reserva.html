@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La Buena Tortilla</title>
+    <link rel="stylesheet" href="../css/generico.css">
+    <link rel="stylesheet" href="../css/reserva.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+</head>
+
+<body>
+    <aside lang="es" class="asideheader">
+        <header>
+            <div class="logo">
+                <a href="../../index.html"><img src="../../imagenes/favicon.ico" alt="Logo"></a>
+            </div>
+            <input type="checkbox" id="boton">
+            <label for="boton" class="menuboton"><i class="fas fa-bars"></i></label>
+            <nav>
+                <ul class="navigation">
+
+                    <li><a href="../paginas/carta.html"> <i class="far fa-clipboard"></i>Carta</a></li>
+                    <li><a href="../paginas/menu.html"><i class="fas fa-utensils"></i>Men&uacute;</a>
+                    </li>
+                    <li><a href="../paginas/menuvegano.html"><i class="fas fa-carrot"></i>Men&uacute; vegano</a></li>
+                    <li><a href="../paginas/reserva.html"><i class="fas fa-phone-volume"></i>Reservas</a>
+                    </li>
+                    <li><a href="../paginas/escuela.html"><i class="fas fa-school"></i>Escuela de
+                            cocina</a></li>
+                    <label for="boton" class="menuboton"><i class="fas fa-times"></i></label>
+                </ul>
+            </nav>
+        </header>
+    </aside>
+    <section class="cabeceraindex">
+        <div class="contenedorcabecera">
+            <div class="video1">
+                <video loop muted autoplay id="video1">
+                    <source src="../../imagenes/reserva.mp4" type="video/mp4">
+                    This file type is not supported
+                </video>
+            </div>
+            <div class="cajacabecera">
+                <h1 class="cabeceraprimaria"><br>
+                    <span id="minombre">Reserva tu mesa y disfruta de las instalaciones del restaurante.</span>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <div class="formulario">
+        <div class="left">
+            <h1>Reservar por tel&eacute;fono</h1>
+
+            <p>
+                Puede reservar su mesa para comer o cenar llam&aacute;ndonos al tel&eacute;fono 999 999 999 en horario
+                de 10 a 18h y de 20 a 23:30h de Mi&eacute;rcoles a Domingo.
+            </p>
+
+            <p>
+                No obstante, si no tiene reserva y quiere comer o cenar en nuestro restaurante tambi&eacute;n puede
+                pasar por nuestro establecimiento y consultar la disponibilidad.
+            </p>
+            <hr>
+            <br>
+            <h1>Cenas y eventos para grupos</h1>
+            <p>Sea cual sea su evento o celebraci&oacute;n, estamos aqu&iacute; para hacer que su d&iacute;a especial
+                sea realmente memorable.
+                Les asesoraremos de la mejor manera para crear un ambiente extraordinario, degustar los mejores platos y
+                tener una experiencia gastron&oacute;mica fabulosa. </p>
+            <p>Nuestro equipo para este tipo de celebraciones estar&aacute; encantado de poder ayudarle. Ll&aacute;menos
+                al 999 999 999.</p>
+            <hr><br>
+            <h3>Condiciones de uso:</h3>
+            <p>
+                En cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre, de Protecci&oacute;n de Datos de
+                Car&aacute;cter Personal (LOPD), La Buena Tortilla le informa que los datos recabados a través del
+                presente formulario serán objeto de tratamiento en un fichero de su titularidad con la finalidad de
+                participar en sorteos y, asimismo, para gestionar campañas promocionales y publicitarias de su local,
+                pudiendo remitirle publicidad a través de cualquier canal (incluido correo electrónico y SMS).
+                El interesado podr&aacute; ejercitar sus derechos de acceso, rectificaci&oacute;n, cancelaci&oacute;n y
+                oposici&oacute;n en cualquier momento dirigiendo un escrito a La Buena Tortilla
+                o a trav&eacute;s de correo electr&oacute;nico: lbuenatortilla@gmail.com . En ambos casos, debe
+                acreditar su identidad adjuntando fotocopia/esc&aacute;ner de su DNI.</p>
+            <br>
+            <table>
+                <tr>
+                    <th colspan="5">¿Qué días del año cerramos?</th>
+                </tr>
+                <tr>
+                    <td>1 de enero</td>
+                    <td>6 de enero</td>
+                    <td>31 de diciembre</td>
+                    <td>Lunes</td>
+                    <td>Martes</td>
+                </tr>
+            </table>
+        </div>
+        <div class="right">
+            <h1>Reserva tu mesa</h1>
+            <form class="formulario">
+                <label for="nombre">Nombre (requerido)</label>
+                <input type="text" name="nombre" required class="input">
+                <label for="email">Email (requerido)</label>
+                <input type="text" name="email" required class="input">
+                <label for="telefono">Tel&eacute;fono (requerido)</label>
+                <input type="text" name="telefono" required class="input">
+                <label for="comensales">Nº Comensales (requerido)</label>
+                <input type="number" name="comensales" min="1" max="40" required class="input">
+                <label for="comensales">D&iacute;a para la reserva (requerido)</label>
+                <input type="date" name="dia" required class="input">
+                <label for="hora">Hora para la reserva</label>
+                <select name="hora" class="input">
+                    <option value="13:30">13:30</option>
+                    <option value="13:45">13:45</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="20:00">20:00</option>
+                    <option value="20:15">20:15</option>
+                    <option value="20:30">20:30</option>
+                    <option value="21:00">21:00</option>
+                    <option value="21:45">21:45</option>
+                </select>
+                <label for="info">Informaci&oacute;n de inter&eacute;s: alergias, trona de beb&eacute;</label>
+                <textarea name="info" rows="50" class="input"></textarea>
+                <input type="checkbox" name="consentimiento">
+                <label for="consentimiento">Confirmo que los datos son correctos y doy mi consentimiento para su
+                    tratamiento.</label>
+                <br>
+                <br>
+                <input type="submit" value="Enviar" class="button">
+            </form>
+            <br>
+        </div>
+    </div>
+
+    <footer>
+        <div id="miModal3" class="modal3">
+            <div class="modal-contenido3">
+                <span><a href="#">X</a></span>
+                <h2 class="textomodal3">¿Dónde nos localizamos?</h2>
+                <div class="video"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.992855231943!2d-3.694757485237859!3d40.409009064034144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226261c363c8d%3A0x5e39743bd2d37ccc!2sPl.%20del%20Emperador%20Carlos%20V%2C%2011%2C%2028012%20Madrid!5e0!3m2!1ses!2ses!4v1642508800040!5m2!1ses!2ses"
+                        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+            </div>
+        </div>
+        <br>
+        <span>© La Buena Tortilla 2022 • <a href="#miModal3">Pl. del Emperador Carlos V, 11, 28012 Madrid</a> • Tel: 999
+            999 999 </span>
+        <br>
+        <br>
+        <ol class="lista">
+            <li><a href="https://www.facebook.com/profile.php?id=100077273713329" target="_blank"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/labuenatortilla/" target="_blank"><i
+                        class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/buena_tortilla" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="">POL&Iacute;TICA DE COOKIES</a></li>
+            <li><a href="">AVISO LEGAL</a></li>
+        </ol>
+    </footer>
+</body>
